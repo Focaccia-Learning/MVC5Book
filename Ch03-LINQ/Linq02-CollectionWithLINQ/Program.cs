@@ -38,8 +38,8 @@ namespace Linq02_CollectionWithLINQ
             foreach (var studentScore in studentScoreQuery)
             {
                 Console.WriteLine("學生 {0} 分數加總：{1}, 平均：{2}",
-                    studentScore.Name, 
-                    studentScore.ScoreSum, 
+                    studentScore.Name,
+                    studentScore.ScoreSum,
                     studentScore.ScoreAvg.ToString("0.00"));
             }
 
@@ -48,7 +48,7 @@ namespace Linq02_CollectionWithLINQ
 
         private static List<Student> GetStudents()
         {
-            return new List<Student>(new[] 
+            return new List<Student>(new[]
             {
                 new Student() {
                   Id = "001", Name = "張三"
@@ -70,7 +70,7 @@ namespace Linq02_CollectionWithLINQ
 
         private static List<StudentScore> GetCSScores()
         {
-            return new List<StudentScore>(new[] 
+            return new List<StudentScore>(new[]
             {
                 new StudentScore() {
                   Id = "001", Score = 82
@@ -92,7 +92,7 @@ namespace Linq02_CollectionWithLINQ
 
         private static List<StudentScore> GetDBScores()
         {
-            return new List<StudentScore>(new[] 
+            return new List<StudentScore>(new[]
             {
                 new StudentScore() {
                   Id = "001", Score = 55

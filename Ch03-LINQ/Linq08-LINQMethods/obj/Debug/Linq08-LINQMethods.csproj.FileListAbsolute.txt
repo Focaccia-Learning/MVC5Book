@@ -15,3 +15,10 @@ D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq08
 D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq08-LINQMethods\bin\Debug\Linq08-LINQMethods.exe
 D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq08-LINQMethods\bin\Debug\Linq08-LINQMethods.pdb
 D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq08-LINQMethods\obj\Debug\Linq08-LINQMethods.csprojResolveAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\bin\Debug\Linq08-LINQMethods.exe.config
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\bin\Debug\Linq08-LINQMethods.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\bin\Debug\Linq08-LINQMethods.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\obj\Debug\Linq08-LINQMethods.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\obj\Debug\Linq08-LINQMethods.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\obj\Debug\Linq08-LINQMethods.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq08-LINQMethods\obj\Debug\Linq08-LINQMethods.pdb

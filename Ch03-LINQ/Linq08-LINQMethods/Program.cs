@@ -12,10 +12,10 @@ namespace Linq08_LINQMethods
         {
             List<int> list1 = new List<int>() { 1, 2, 3, 4, 5, 6 };
             List<int> list2 = new List<int>() { 6, 4, 2, 7, 9, 0 };
-
-            // select many with list2.
+            #region 3.5.2
+            //  select many with list2.
             var query = list1.SelectMany(o => list2);
-
+            Console.WriteLine("==============SelectMany==============");
             foreach (var q in query)
                 Console.Write("{0} ", q);
 
@@ -32,21 +32,19 @@ namespace Linq08_LINQMethods
 
             foreach (var q in query2)
                 Console.WriteLine("{0} ", q);
+            #endregion
 
-            // join is equivalent to LINQ statement.
-            //var query = from item1 in list1
-            //            join item2 in list2 on item1 equals item2
-            //            select item2;
+            #region 3.5.3 GroupBy
 
-            var query3 = list1.Join(
-                list2,
-                item1 => item1,
-                item2 => item2,
-                (item1, item2) => item2);
+            List<int> seqences = new List<int>() { 1, 2, 4, 3, 2, 1, 4, 5, 2, 5, 6 };
 
-            foreach (var q in query3)
-                Console.WriteLine("{0} ", q);
+            var group = seqences.GroupBy(o => o).OrderBy(p => p.Key);
+            Console.WriteLine("================= Group [Start] ================= ");
 
+            foreach (var q in group)
+                Console.WriteLine("{0} count: {1} ", q.Key, q.Count());
+
+            Console.WriteLine("================= Group [End] ================= ");
             // LINQ statement with group join
             var query4 = from item1 in list1
                          join item2 in list2 on item1 equals item2 into g
@@ -54,16 +52,6 @@ namespace Linq08_LINQMethods
                          select new { v = item1, c = item };
 
             foreach (var q in query4)
-                Console.WriteLine("{0} count: {1} ", q.v, q.c);
-
-            // LINQ method call equivalent to LINQ statement.            
-            var query5 = list1.GroupJoin(
-                list2,
-                item1 => item1,
-                item2 => item2,
-                (item1, item2) => new { v = item1, c = item2.Count() });
-
-            foreach (var q in query5)
                 Console.WriteLine("{0} count: {1} ", q.v, q.c);
 
             //List<int> sequences = new List<int>() { 1, 2, 4, 3, 2, 4, 6, 4, 2, 4, 5, 6, 5, 2, 2, 6, 3, 5, 7, 5 };
@@ -79,7 +67,7 @@ namespace Linq08_LINQMethods
 
             //foreach (var g in group2)
             //    Console.WriteLine(g.ToString());
-
+            Console.WriteLine("================= ToLookup [Start] ================= ");
             // ToLookup() demo
             var nameValuesGroup = new[]
             {
@@ -98,6 +86,45 @@ namespace Linq08_LINQMethods
                 foreach (var item in g)
                     Console.WriteLine("name: {0}, value: {1}", item.name, item.value);
             }
+
+            Console.WriteLine("================= ToLookup [End] ================= ");
+            #endregion
+
+
+            #region JOIN
+            Console.WriteLine("================= Join [Start] ================= ");
+            // join is equivalent to LINQ statement.
+            //var query = from item1 in list1
+            //            join item2 in list2 on item1 equals item2
+            //            select item2;
+
+
+            var query3 = list1.Join(
+                list2,
+                item1 => item1,
+                item2 => item2,
+                (item1, item2) => item2);
+
+            foreach (var q in query3)
+                Console.WriteLine("{0} ", q);
+
+            Console.WriteLine("================= Join [End] ================= ");
+
+            Console.WriteLine("================= GroupJoin [Start] ================= ");
+            // LINQ method call equivalent to LINQ statement.            
+            var query5 = list1.GroupJoin(
+                list2,
+                item1 => item1,
+                item2 => item2,
+                (item1, item2) => new { v = item1, c = item2.Count() });
+
+            foreach (var q in query5)
+                Console.WriteLine("{0} count: {1} ", q.v, q.c);
+
+            Console.WriteLine("================= GroupJoin [End] ================= ");
+            #endregion
+
+            #region 3.5.5 Order
 
             // order list.
             var nameValues = new[]
@@ -131,14 +158,31 @@ namespace Linq08_LINQMethods
             Console.WriteLine("== OrderBy() + ThenBy() demo: sortedByValueNames ==");
             foreach (var q in sortedByValueNames)
                 Console.WriteLine("name: {0} value: {1} ", q.name, q.value);
+            #endregion
+
+            #region 3.5.6 擷取集合
+            //ToList()
+            //ToArray()
+            var arrayOutput = nameValues.ToArray();
+            var listOutput = nameValues.ToList();
+
+            //ToDictionary()
+
+            var dicOutput1 = nameValues.ToDictionary(c => c.name);
+            var dicOutput2 = nameValues.ToDictionary(c => c.name, c => c.value);
+            #endregion
+
+            #region 3.5.7 劃分並擷取集合 
+            //Skip() 在集合中作跳躍 適合作在分頁
+            //Take() 在集合中特定數量的元素
 
             // Union/Intersect/Except
             int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
             int[] numbersB = { 1, 3, 5, 7, 8 };
 
-            var unionResults = numbersA.Union(numbersB);
-            var intersectResults = numbersA.Intersect(numbersB);
-            var exceptResults = numbersA.Except(numbersB);
+            var unionResults = numbersA.Union(numbersB); // union 兩陣列 同 SQL UNION 
+            var intersectResults = numbersA.Intersect(numbersB); //兩陣列相同元素 5,8
+            var exceptResults = numbersA.Except(numbersB);  // 0,2,4,6,9
 
             Console.WriteLine("== Union ==");
 
@@ -170,7 +214,9 @@ namespace Linq08_LINQMethods
                 Console.Write(q + " ");
 
             Console.WriteLine();
+            #endregion
 
+            #region 3.5.9 存取元素
             var firstLastItems = new[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
             // First()/Last()
@@ -179,18 +225,23 @@ namespace Linq08_LINQMethods
 
             Console.WriteLine("First string starting with 'o': {0}", firstContainsO);
             Console.WriteLine("Last string starting with 'o': {0}", lastContainsO);
-            
-            // ElementAt()
+
+            // [!] ElementAt()
             string itemAtThree = firstLastItems.ElementAt(2);
             string itemAtSix = firstLastItems.ElementAt(5);
 
             Console.WriteLine("3rd string in list : {0}", itemAtThree);
             Console.WriteLine("6th string in list : {0}", itemAtSix);
+            #endregion
 
+
+            #region 3.5.10 聚合語彙總
             // 存款
             double myBalance = 100.0;
             // 提款的額度
             int[] withdrawItems = { 20, 10, 40, 50, 10, 70, 30 };
+
+            //Aggregate 可暫存每一次的步驟
             double balance = withdrawItems.Aggregate(myBalance,
             (originbalance, nextWithdrawal) =>
             {
@@ -218,7 +269,7 @@ namespace Linq08_LINQMethods
 
             Console.WriteLine("Balance status: {0}", balanceStatus);
 
-
+            #endregion
             Console.ReadLine();
         }
     }

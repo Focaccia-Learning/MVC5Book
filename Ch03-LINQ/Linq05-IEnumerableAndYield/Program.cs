@@ -34,7 +34,8 @@ namespace Linq05_IEnumerableAndYield
             };
 
             var c3 = GetCollection3(numberSeries);
-            
+
+            c3 = c3.Where(c => c < 50 && c > 5);
             Console.Write("Output of GetCollection3(): ");
 
             foreach (var c in c3)
@@ -43,6 +44,10 @@ namespace Linq05_IEnumerableAndYield
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// 這是平常習慣用法
+        /// </summary>
+        /// <returns></returns>
         private static IEnumerable<int> GetCollection1()
         {
             List<int> list = new List<int>();
@@ -64,9 +69,9 @@ namespace Linq05_IEnumerableAndYield
             foreach (var number in NumberSeries)
             {
                 if (number > 100)
-                    yield break;
+                    yield break; //結束迴圈
                 else
-                    yield return number;
+                    yield return number; //回傳結果到一個 IEnumerable<int> 中
             }
         }
     }

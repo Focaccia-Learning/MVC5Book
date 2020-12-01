@@ -8,3 +8,9 @@ M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq01-CollectionWith
 M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq01-CollectionWithoutLINQ\bin\Debug\Linq01-CollectionWithoutLINQ.exe
 M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq01-CollectionWithoutLINQ\bin\Debug\Linq01-CollectionWithoutLINQ.pdb
 M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq01-CollectionWithoutLINQ\obj\Debug\Linq01-CollectionWithoutLINQ.csprojResolveAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\bin\Debug\Linq01-CollectionWithoutLINQ.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\bin\Debug\Linq01-CollectionWithoutLINQ.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\obj\Debug\Linq01-CollectionWithoutLINQ.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\obj\Debug\Linq01-CollectionWithoutLINQ.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\obj\Debug\Linq01-CollectionWithoutLINQ.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq01-CollectionWithoutLINQ\obj\Debug\Linq01-CollectionWithoutLINQ.pdb

@@ -3,3 +3,9 @@ F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\bin\Deb
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\bin\Debug\GenericImpl01.pdb
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\obj\Debug\GenericImpl01.exe
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\obj\Debug\GenericImpl01.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\bin\Debug\GenericImpl01.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\bin\Debug\GenericImpl01.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\obj\Debug\GenericImpl01.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\obj\Debug\GenericImpl01.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\obj\Debug\GenericImpl01.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\GenericImpl01\obj\Debug\GenericImpl01.pdb

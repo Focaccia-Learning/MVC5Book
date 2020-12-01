@@ -3,3 +3,9 @@ F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\bin
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\bin\Debug\NorthwindDbReader.pdb
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\obj\Debug\NorthwindDbReader.exe
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\obj\Debug\NorthwindDbReader.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\bin\Debug\NorthwindDbReader.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\bin\Debug\NorthwindDbReader.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\obj\Debug\NorthwindDbReader.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\obj\Debug\NorthwindDbReader.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\obj\Debug\NorthwindDbReader.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch02-Model\NorthwindDbReader\obj\Debug\NorthwindDbReader.pdb

@@ -3,3 +3,9 @@ F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq05-IEnumerableAnd
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.csprojResolveAssemblyReference.cache
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.exe
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\bin\Debug\Linq05-IEnumerableAndYield.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\bin\Debug\Linq05-IEnumerableAndYield.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq05-IEnumerableAndYield\obj\Debug\Linq05-IEnumerableAndYield.pdb

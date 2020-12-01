@@ -3,3 +3,9 @@ F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq03-ImplementExten
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.csprojResolveAssemblyReference.cache
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.exe
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\bin\Debug\Linq03-ImplementExtensionMethod.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\bin\Debug\Linq03-ImplementExtensionMethod.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq03-ImplementExtensionMethod\obj\Debug\Linq03-ImplementExtensionMethod.pdb

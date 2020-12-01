@@ -3,3 +3,9 @@ F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq02-CollectionWith
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.exe
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.pdb
 F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.csprojResolveAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\bin\Debug\Linq02-CollectionWithLINQ.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\bin\Debug\Linq02-CollectionWithLINQ.pdb
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.csprojAssemblyReference.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.csproj.CoreCompileInputs.cache
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.exe
+D:\simon\GitSource\Focaccia-Learning\MVC5Book\Ch03-LINQ\Linq02-CollectionWithLINQ\obj\Debug\Linq02-CollectionWithLINQ.pdb

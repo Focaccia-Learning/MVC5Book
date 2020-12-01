@@ -11,18 +11,19 @@ namespace Linq06_DelegateAndLambda
         {
             ExampleObject.MyCallbackHandler cb;
 
-            // anonymous delegate
-            cb = delegate(object callbackData)
+            // 匿名委派 anonymous delegate
+            cb = delegate (object callbackData)
             {
                 Console.WriteLine(callbackData);
             };
 
             var o = new ExampleObject();
-            o.Invoke(delegate(object callbackData)
+            o.Invoke(delegate (object callbackData)
             {
                 Console.WriteLine(callbackData);
             });
 
+            // .net FrameWork 3.5　後可以這樣寫更精簡
             // Lambda expression implementation.
             o.Invoke(d => Console.WriteLine(d));
 
